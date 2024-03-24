@@ -54,6 +54,31 @@ To get started with the Farcaster Frames Analytics & Ranking Tool, please ensure
 
 This project wouldn't have been possible without the APIs and data provided by Pinta and Karma3Labs. We are immensely grateful for their support and the resources they have made available to the developer community.
 
+**Pinata** -
+
+`https://api.pinata.cloud/v3/farcaster/casts/{hash}`
+`https://api.pinata.cloud/v3/farcaster/casts`
+`https://api.pinata.cloud/v3/farcaster/channels`
+`https://api.pinata.cloud/v3/farcaster/channels/{name}`
+`https://api.pinata.cloud/v3/farcaster/users/{fid}`
+`https://api.pinata.cloud/v3/farcaster/users`
+
+**karma3labs**
+
+`https://graph.cast.k3l.io/scores/global/following/fids`
+`https://graph.cast.k3l.io/scores/global/following/handles`
+`https://graph.cast.k3l.io/scores/global/engagement/fids`
+`https://graph.cast.k3l.io/scores/global/engagement/handles`
+`https://graph.cast.k3l.io/scores/personalized/following/fids`
+`https://graph.cast.k3l.io/scores/personalized/following/handles`
+`https://graph.cast.k3l.io/scores/personalized/engagement/fids`
+`https://graph.cast.k3l.io/scores/personalized/engagement/handles`
+`https://graph.cast.k3l.io/scores/global/following/rankings?offset={offset}&limit={limit}`
+`https://graph.cast.k3l.io/scores/global/engagement/rankings?offset={offset}&limit={limit}`
+`https://graph.cast.k3l.io/frames/personalized/rankings/fids`
+`https://graph.cast.k3l.io/frames/personalized/rankings/handles`
+`https://graph.cast.k3l.io/frames/global/rankings`
+
 ## How This Application Helps Users
 
 The Farcaster Frames Analytics & Ranking Tool is designed to solve several key challenges for users of the Farcaster network:
