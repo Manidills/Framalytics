@@ -55,7 +55,7 @@ if option == 'About':
     st.write("Framalytics is a versatile platform that offers in-depth analytics, interactive data tools thats regards Frames.")
     st.markdown("##")
     st.write("""   
-    #### :red[Analytics] : The analytics section provides profound insights into  frames analytics and growth patterns.  ####  """)
+    #### :red[Analytics] : The analytics section provides profound insights into  frames analytics, interactive / editable data and growth patterns.  ####  """)
     st.markdown("##")
     st.write("""   
     #### :red[Feeds] : This section facilitates the filtering and interaction with data related to casts, channels, and users. It also periodically retrieves the top data from each section, enabling users to engage with and manage relevant information efficiently. ####  """)
