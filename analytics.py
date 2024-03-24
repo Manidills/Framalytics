@@ -6,37 +6,37 @@ import altair as alt
 import math
 
 
-@st.cache_data
+
 def trans_date():
     trans = pd.read_csv("data/farcaster_trans.csv")
     return trans
 
-@st.cache_data
+
 def trans_chain():
     chain = pd.read_csv("data/farcaster_chain.csv")
     return chain
 
-@st.cache_data
+
 def trans_vol():
     vol = pd.read_csv("data/farcaster_volume.csv")
     return vol
 
-@st.cache_data
+
 def base_user_date():
     base_users = pd.read_csv('data/top_base_users.csv')
     return base_users
 
-@st.cache_data
+
 def framers_data():
     framers = pd.read_csv('data/top_frames-by_interval.csv')
     return framers
 
-@st.cache_data
+
 def top_base_mints():
     base_mints = pd.read_csv('data/top_mints.csv')
     return base_mints
 
-@st.cache_data
+
 def growth():
     reactions = pd.read_csv('data/reactions_per_day.csv')
     followers = pd.read_csv("data/folloers_count.csv")
